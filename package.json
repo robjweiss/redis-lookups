@@ -1,0 +1,29 @@
+{
+  "name": "redis-lookups",
+  "version": "1.0.0",
+  "description": "Using redis to store and retrieve JSONs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robjweiss/redis-lookups.git"
+  },
+  "keywords": [
+    "redis",
+    "express"
+  ],
+  "author": "Rob Weiss",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "express": "^4.16.4",
+    "redis": "^2.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/robjweiss/redis-lookups/issues"
+  },
+  "homepage": "https://github.com/robjweiss/redis-lookups#readme"
+}
